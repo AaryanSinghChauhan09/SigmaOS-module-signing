@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-module-signing"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS module-signing component - kernel_subsystem"
+
+[lib]
+name = "module_signing"
+path = "src/lib.rs"
